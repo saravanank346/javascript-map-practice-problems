@@ -136,6 +136,7 @@ console.log(object)
 //anagrams of each other. Use the Map object to accomplish this.
 
 arr =["cat","act","madam","tea","ate"]
+
 obj=[]
 arr.map(x=>{
   splitt=x.split("").sort().join();
@@ -146,9 +147,6 @@ arr.map(x=>{
   }
 
     obj[splitt].push(x)
-  
-
-  
    
 })
 console.log(obj)
